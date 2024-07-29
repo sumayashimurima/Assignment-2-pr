@@ -30,11 +30,15 @@
   background: rgb(230, 83, 60);
 
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 22px;
   padding: 8px 20px 8px 20px;
   border: none;
+}
+
+.btn {
+  width: 160px;
 }
 
 .body-color {
@@ -225,8 +229,9 @@
 /* main style */
 .section2 {
 
-  width: 1044px;
+  max-width: 1044px;
   margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .div-Change-Your-Habits {
@@ -307,6 +312,48 @@
   text-align: center;
 
 }
+
+.section3 {
+  max-width: 1060px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+
+
+}
+
+.sec3-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec3-titel {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 12px;
+
+}
+
+.sec3-decreption {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+
+.section3 img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 20px;
+
+}
+
 
 
 
