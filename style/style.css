@@ -14,7 +14,8 @@
   font-style: normal;
 
 }
-*{
+
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -38,9 +39,6 @@
 
 .body-color {
   background: rgb(0, 0, 0);
-  /* max-width: 1440px;
-  max-height: 715px; */
-  /* margin: auto; */
 }
 
 .display {
@@ -51,7 +49,8 @@
 .section1 {
   max-width: 1440px;
   max-height: 715px;
-  
+  margin: 0 auto;
+
   background: linear-gradient(360.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -96,10 +95,11 @@
 /* banner style */
 .banner {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 210px 0 180px; */
+  margin: 0 200px 0 180px;
+
 }
 
 .banner-content {
@@ -129,10 +129,11 @@
   background-color: black;
   margin-left: 15px;
 }
-/* .img{
+
+.imgs{
   display: flex;
-  justify-content: ;
-} */
+  justify-content:end ;
+}
 
 .img1 {
   width: 349px;
@@ -140,8 +141,8 @@
 
 .card1 {
   position: absolute;
-  width: 175px;
-  height: 85px;
+  width: 165px;
+  height: 75px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -149,9 +150,8 @@
   background: rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
-  left: 1102px;
-  top: 320px;
-  /* margin: 240px,160px,357px,1107px; */
+  left: 1140px;
+  top: 265px;
   z-index: 10;
 }
 
@@ -159,7 +159,7 @@
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: 900;
-  margin: 15px 45px 5px 24px;
+  margin: 12px 42px 5px 24px;
 }
 
 .card1-discription {
@@ -174,24 +174,31 @@
 .card2 {
 
   position: absolute;
-  width: 175px;
-  height: 85px;
-  left: 800px;
-  top: 600px;
+  width: 170px;
+  height: 75px;
+  left: 860px;
+  top: 575px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
   display: flex;
+  gap: 10px
+}
+
+.card2-contant {
+  display: flex;
   flex-direction: column;
+
 }
 
 .card-2 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 900;
-  margin: 15px 45px 5px 65px;
+  margin: 12px 42px 5px 0px;
+
 }
 
 .card2-discription {
@@ -199,8 +206,17 @@
   color: rgba(255, 255, 255, 0.65);
   font-size: 10px;
   font-weight: 400;
-  margin-top: 0px;
-  margin-left: 65px;
+  margin: 0px 30px 5px 0px;
+
+}
+
+.icon {
+  /* position: absolute; */
+  font-size: 40px;
+  color: rgb(230, 83, 60);
+  margin-left: 20px;
+  margin-top: 12px;
+
 }
 
 
@@ -276,7 +292,7 @@
     flex-direction: column;
     /* left: 1102px; */
     top: 320px;
-}
+  }
 
   .card2 {
     position: static;
