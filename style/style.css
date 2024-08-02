@@ -354,6 +354,169 @@
 
 }
 
+.section4 {}
+
+.BMI-calculate {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 50px 0px 50px 150px;
+  margin: 0 auto;
+}
+
+.BMI-calculater {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BMI-LIST {
+
+  padding: 50px;
+  margin: 0 auto;
+
+}
+
+.BMI-LIST h3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px 0px 20px 0px;
+}
+
+.BMI-LIST table {
+  padding: 20px;
+
+}
+
+.BMI-LIST table,
+th,
+td {
+  max-width: 310px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 10px;
+
+}
+
+.BMI-LIST table,
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.BMI-LIST table,
+th {
+
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+
+.BMI-title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px;
+}
+
+.BMI-discreption {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  padding: 5px;
+}
+
+.calculator-main-div {
+  max-width: 570px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+}
+
+.calculate-your-BMI {
+  margin-bottom: 20px;
+}
+
+.calculate-your-BMI-titel {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+ 
+}
+
+.calculate-your-BMI-discreption {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  font-weight: 200;
+ 
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(1,2fr);
+  /* grid-template-rows: repeat(2,50px)50px 50px; */
+  gap: 20px;
+}
+
+#box5 {
+  /* grid-template-columns: repeat(2,2fr); */
+
+  grid-column: span 2;
+ 
+
+}
+
+.Calculator-cell {
+  width: 200px;
+  height: 30px;
+  border-radius: 08px;
+  /* border: none; */
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  border-radius: 08px;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 300;
+  padding: 12px 40px 12px 20px;
+
+}
+
+select {
+  width: 200px;
+  height: 32px;
+  border-radius: 08px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0 0 0 12px;
+
+}
+
+.calculator-button{
+  margin-top: 20px;
+}
+
+
 .section5 {
   max-width: 1060px;
   margin: 0 auto;
@@ -362,7 +525,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-
 }
 
 .meet-our-team {
@@ -515,9 +677,12 @@
   font-weight: 300;
   margin: 0 auto;
   padding: 20px;
-  
+
   /* margin-left: 590px; */
 }
+
+
+
 
 
 
