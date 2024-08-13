@@ -404,7 +404,7 @@ th {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   font-weight: 200;
-  text-align: center;
+  text-align: start;
   padding: 5px;
 }
 
@@ -481,7 +481,7 @@ select {
   margin-top: 20px;
 }
 
-.bmi-btn{
+.bmi-btn {
   width: 160px;
 }
 
@@ -563,7 +563,8 @@ select {
 .section6 {
   width: 100%;
   margin: 0 auto;
-  margin-top:80px ;
+  margin-top: 80px;
+
 }
 
 .food-for-fitness {
@@ -594,9 +595,8 @@ select {
 
 }
 
-.bg-video{
+.bg-video {
   position: relative;
-  margin-bottom: 70px;
 }
 
 .section6 background-video {
@@ -607,7 +607,7 @@ select {
 }
 
 .sec6-continer {
-  position:absolute;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -620,9 +620,6 @@ select {
   bottom: 50%;
   z-index: 1;
 }
-
-
-
 
 .sec6-continer h1 {
   font-size: 45px;
@@ -653,11 +650,10 @@ select {
 
 
 .footer-section {
-  /* max-width: 1440px; */
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 auto;
-  margin-top: 60px;
+  /* margin-top: 70px; */
 }
 
 .footer-main-div {
@@ -902,6 +898,21 @@ select {
     flex-direction: column;
   }
 
+  .sec3-titel {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  
+  .sec3-decreption {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 200;
+    margin-bottom: 25px;
+  }
+  
+
   .section3 img {
     width: 100%;
     object-fit: cover;
@@ -913,7 +924,7 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 15px 5px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -921,17 +932,16 @@ select {
 
   .BMI-title {
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 800;
-    text-align: center;
-    padding: 0px;
+    text-align: start;
   }
 
   .BMI-discreption {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 200;
-    text-align: center;
+    text-align: start;
     padding: 5px;
   }
 
@@ -971,6 +981,21 @@ select {
     gap: 12px;
   }
 
+  .calculate-your-BMI-titel {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  
+  .calculate-your-BMI-discreption {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 200;
+    text-align: start;
+  }
+
   .Calculator-cell {
     width: 100%;
     height: 100%;
@@ -994,7 +1019,7 @@ select {
     text-indent: 10px;
   } */
 
-  .bmi-btn{
+  .bmi-btn {
     width: 170%;
   }
 
@@ -1082,10 +1107,10 @@ select {
 
   .section6 {
     width: 100%;
-    margin: 0 auto;
-    margin-top:80px ;
+    margin: 0;
+    margin-top: 0px;
   }
-  
+
   .food-for-fitness {
     width: 100%;
     display: flex;
@@ -1093,70 +1118,67 @@ select {
     justify-content: center;
     align-items: center;
     gap: 10px;
-  
+
   }
-  
+
   .food-for-fitness-titel {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     text-align: center;
-  
+
   }
-  
+
   .food-for-fitness-descreption {
     width: 100%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 10px;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 20px;
     opacity: .8;
-  
+
   }
-  
-  .bg-video{
+
+  .bg-video {
     position: relative;
-    margin-bottom: 70px;
   }
-  
+
   .section6 background-video {
     width: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 0;
   }
-  
+
   .sec6-continer {
-    /* width: 100%; */
-    position:absolute;
+    width: 100%;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 25px;
-    /* top: 50%;
-    left: 50%;
-    right: 50%;
-    bottom: 50%; */
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    bottom: 50%;
     z-index: 1;
   }
-  
-  
-  
-  
+
+
   .sec6-continer h1 {
-    /* width: 100%; */
+    width: 100%;
     font-size: 24px;
     font-weight: 800;
     color: #fcfbfe;
     text-align: center;
     /* width: 400px; */
     transition: .5s;
-  
+
   }
-  
+
   .sec6-continer a {
     /* width: 100%; */
     text-decoration: none;
@@ -1167,18 +1189,17 @@ select {
     font-size: 10px;
     font-weight: 400;
   }
-  
+
   /* .sec6-continer :hover {
     -webkit-text-stroke: 2px white;
     color: transparent;
   } */
-  
+
 
   .footer-section {
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
     margin: 0 auto;
-    margin-top: 60px;
     padding: 0px;
     box-sizing: border-box;
   }
